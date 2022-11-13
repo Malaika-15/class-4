@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+	
+	<title>Form</title>
+    <link rel="stylesheet"  href="Fiza.css">
+</head>
+<body>
+
+<div class="main">
+<h1> Registration Form</h1>
+<div  class="register">
+
+<form>
+   
+Name:<input type="text" required="true" id="name"  placeholder ="Enter Your Name"/><br>
+
+Email:<input type="email" required="true" id="email"placeholder ="Enter Your Email"/><br>
+
+DOB:<input type="date" required="true"> <input type="time"required="true" name=""/><br>
+
+
+Select Gender:
+
+<br><input type="radio" name="gender"><label>Male</label>
+
+<br><input type="radio" name="gender"><label>Female</label>
+
+<br><input type="radio" name="gender"><label>Others</label><br>
+
+Password:<input type="Password" required="true" placeholder="Enter Your Password"/><br>
+
+Confirm Password:<input type="Password" required="true" placeholder="Confirm Password"/><br>
+
+<label>Password strengt from:</label>
+
+0
+
+<meter  min="0" max="100" value="35"title="Password strengt" low="40" high="80"></meter>
+
+&nbsp;100<br>
+
+Mobile No. <input type="text" required="true"maxlength="11" placeholder="Enter Your Mobile NO"><br>
+
+Enter Your Website:<input type="url" required="true" placeholder="Enter Your Mobile No"/><br>
+
+<label>Select the Center:</label>
+
+
+<input type="text" name="payment" list="center">
+
+<datalist id="center">
+
+<option value="NorthNazimabad">
+
+<option value="Orangi">
+	
+<option value="Garden">
+	
+<option value="Airpot">
+	
+</datalist>
+<br>
+
+Enter Your Address:
+
+<br><textarea rows="4"></textarea><br>
+
+
+Select Your Courses:<br>
+
+<input type="checkbox"><label>MS Office</label><br>
+	
+<input type="checkbox"><label>DMW</label><br>
+
+<input type="checkbox"><label>C#</label><br>
+
+<input type="checkbox"><label>SQL</label><br>
+
+
+<label>Form Information Progress</label>
+<progress value="60" max="100"></progress><br>
+
+<input type="Submit" value="Submit" id="Submit">
+
+
+
+
+
+
+</body>
+</html>
